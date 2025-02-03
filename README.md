@@ -1,1 +1,3 @@
-# obsidian_math
+# Obsidian Math Notes
+
+Everything I work on, synced on obsidian
