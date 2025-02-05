@@ -6,8 +6,32 @@ $$\Big(u(x)\cdot v(x)\Big)'=u'(x)\cdot v(x)+u(x)\cdot v'(x)$$
 $$\int\Big(u(x)\cdot v(x)\Big)'dx=\int u'(x)\cdot v(x)dx+\int u(x)\cdot v'(x)dx$$
 Sidetrack: cuando podemos derivar/integrar etc de ambos lados? como se que es una operacion bien definida? Explicacion: Se que la primera linea es una igualdad de funciones (por props basicas de la derivada) que vale para todo x. Entonces cuando integramos ambos lados las antiderivadas son iguales hasta una constante, y por como es la familia de funciones esto es igualdad (tiene q ver q estan en la misma clase de equivalencia!!).   
 
-Formulacion alternativa: Pensamos $u'(x)=\frac{du}{dx}$ como $du=u'(x)dx$ y $v'(x)=\frac{dv}{dx}$ como $dv=v'(x)dx$. Usando $$\int u(x)\cdot v'(x)dx=u(x)\cdot v(x) - \int u'(x) \cdot v(x)dx$$[[Basic integration]]
+Formulacion alternativa: Pensamos $u'(x)=\frac{du}{dx}$ como $du=u'(x)dx$ y $v'(x)=\frac{dv}{dx}$ como $dv=v'(x)dx$. Usando $$\int u(x)\cdot v'(x)dx=u(x)\cdot v(x) - \int u'(x) \cdot v(x)dx$$
+
 Reemplazamos y nos queda
 $$\int u(x)dv=u(x)\cdot v(x) - \int v(x)du$$
 ### Logica
+
+You have your original function $f$,  and you want to break it down into $f=u(x)\cdot v'(x)$ in such a way that $u'(x)\cdot v(x)$ is easy to integrate. The "rules" for choosing $u$ (which I don't like): LIATE
+
+Logarithmic
+Inverse trigonometric ($\arctan , \arcsin$), etc
+Algebraic (polynomials ig?)
+Trigonometric
+Exponential
 ### Ejemplos
+
+1
+$$\int x\cdot e^xdx$$
+$$u(x)=x \text{ } v'(x)=e^x$$
+$$\int x\cdot e^xdx=x\cdot e^x-\int 1\cdot e^xdx=x\cdot e^x-e^x+C $$
+
+2
+$$\int x\cdot ln(x)dx$$
+$$u(x)=ln(x) \text{ } v'(x)=x$$
+$$\int x\cdot ln(x)dx=ln(x)\cdot \frac{x^2}{2}-\int \frac{x^2}{2}\cdot \frac{1}{x}dx=ln(x)\cdot \frac{x^2}{2}-\frac{x^2}{4}+C$$
+
+3
+$$\int x\cdot sin(x)dx$$
+$$u(x)=x \text{ } v'(x)=sin(x)$$
+$$\int x\cdot sin(x)dx=-x\cdot cos(x)-\int -cos(x)dx=-x\cdot cos(x)+sin(x)+C$$
