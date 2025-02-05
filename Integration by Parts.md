@@ -35,3 +35,9 @@ $$\int x\cdot ln(x)dx=ln(x)\cdot \frac{x^2}{2}-\int \frac{x^2}{2}\cdot \frac{1}{
 $$\int x\cdot sin(x)dx$$
 $$u(x)=x \text{ } v'(x)=sin(x)$$
 $$\int x\cdot sin(x)dx=-x\cdot cos(x)-\int -cos(x)dx=-x\cdot cos(x)+sin(x)+C$$
+4 A more interesting example.
+$$\int e^xcos(x)dx$$
+$$u(x)=cos(x) \text{ } v'(x)=e^x$$
+$$\int e^xcos(x)dx=e^xcos(x)-\int -e^xsin(x)dx=e^xcos(x)+\int e^xsin(x)dx$$
+Find the new integral with $sin$
+$$$$
