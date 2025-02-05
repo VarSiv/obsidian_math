@@ -44,4 +44,4 @@ $$\int e^xsin(x)dx=e^xsin(x)-\int e^xcos(x)dx$$
 Substitute back in 
 $$\int e^xcos(x)dx=e^xcos(x)+e^xsin(x)-\int e^xcos(x)dx$$
 Now its easy to see that
-$$\int e^xcos(x)dx=e^x[cos(x)+sin(x)]$$
+$$\int e^xcos(x)dx=\frac{e^x\Big(cos(x)+sin(x)\Big)}{2}+C$$
