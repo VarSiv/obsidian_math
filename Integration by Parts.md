@@ -39,5 +39,9 @@ $$\int x\cdot sin(x)dx=-x\cdot cos(x)-\int -cos(x)dx=-x\cdot cos(x)+sin(x)+C$$
 $$\int e^xcos(x)dx$$
 $$u(x)=cos(x) \text{ } v'(x)=e^x$$
 $$\int e^xcos(x)dx=e^xcos(x)-\int -e^xsin(x)dx=e^xcos(x)+\int e^xsin(x)dx$$
-Find the new integral with $sin$
-$$$$
+Find the new integral with $sin$ by using parts
+$$\int e^xsin(x)dx=e^xsin(x)-\int e^xcos(x)dx$$
+Substitute back in 
+$$\int e^xcos(x)dx=e^xcos(x)+e^xsin(x)-\int e^xcos(x)dx$$
+Now its easy to see that
+$$\int e^xcos(x)dx=e^x[cos(x)+sin(x)]$$
