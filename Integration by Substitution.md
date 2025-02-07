@@ -9,4 +9,7 @@ Another way to see this:
 
 $$ u=g(x), \text{ }\frac {du}{dx}=g'(x), \text{ } du=g'(x)dx $$
 
-Why can we treat $u$ as a variable and a function at the same time? Smth to understan
+Why can we treat $u$ as a variable and a function at the same time? Smth to understand later, from Chat's explanation we "hide" x by using u, and we can treat it as a new variable that's dependent on the old variable x. not completely sure I buy it but whatev.
+
+### Ejemplos
+
