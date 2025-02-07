@@ -50,4 +50,5 @@ $$\int arctan(x)dx$$
 $$u=arctan(x) \text{ }v'=1$$
 $$u'=\frac {1}{x^2+1} \text{ }v=x$$
 $$\int arctan(x)dx=arctan(x)\cdot x-\int \frac {x}{x^2+1}dx$$
-Now we use substitu
+Now we use substitution $u=x^2+1$ $du=2xdx$ $\frac {1}{2}du=xdx$ 
+$$\int arctan(x)dx=arctan(x)\cdot x-\int \frac{1}{2u}du=arctan(x)\cdot x-\fra{}{}$$
