@@ -45,3 +45,9 @@ Substitute back in
 $$\int e^xcos(x)dx=e^xcos(x)+e^xsin(x)-\int e^xcos(x)dx$$
 Now its easy to see that
 $$\int e^xcos(x)dx=\frac{e^x\Big(cos(x)+sin(x)\Big)}{2}+C$$
+5 One that also uses substitution
+$$\int arctan(x)dx$$
+$$u=arctan(x) \text{ }v'=1$$
+$$u'=\frac {1}{x^2+1} \text{ }v=x$$
+$$\int arctan(x)dx=arctan(x)\cdot x-\int \frac {x}{x^2+1}dx$$
+Now we use substitu
