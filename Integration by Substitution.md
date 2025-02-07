@@ -5,4 +5,7 @@ Here, $u=g(x)=x^2$   $du=g'(x)=2xdx$. Now we can easily compute $$\int cos(u)du=
 ### Why does this work? A basic explanation
 
 Let's say we have a function $f(z)$, with $F(z)$ its antiderivative. By the chain rule we know that $F(g(x))=F'(g(x))\cdot g'(x)$ or by definition of $F$ $f(g(x))\cdot g'(x)$. So now we know that $$\int f(g(x))g'(x)dx=F(g(x))$$
+Another way to see this:
+$u=g(x)$, $\frac {du}{dx}=g'(x)$ $du=g'(x)dx$
+
 Why can we treat $u$ as a variable and a function at the same time?
