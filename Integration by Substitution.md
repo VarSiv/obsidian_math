@@ -3,4 +3,6 @@ This is very abstract and hard to understand. It's difficult to identify when an
 $$\int cos(x^2)\cdot 2xdx$$
 Here, $u=g(x)=x^2$   $du=g'(x)=2xdx$. Now we can easily compute $$\int cos(u)du=sin(u)=sin(x^2)+C$$
 ### Why does this work? A basic explanation
-Let's say we have a function $f(z)$, with $F(z)$ its antiderivative. 
+
+Let's say we have a function $f(z)$, with $F(z)$ its antiderivative. By the chain rule we know that $F(g(x))=F'(g(x))\cdot g'(x)$ or by definition of $F$ $f(g(x))\cdot g'(x)$. So now we know that $$\int f(g(x))g'(x)dx=F(g(x))$$
+Why can we treat $u$ as a variable and a function at the same time?
