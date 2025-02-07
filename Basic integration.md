@@ -29,4 +29,4 @@ $$F(-t) = \int_0^{-t}{f(t)dt} + F(0)= -\int_{-t}^{0}{f(t)dt} + F(0)$$ Y ahora es
 ## Metodos de integracion
 
 [[Integration by Parts]]
-
+[[Integration by Substitution]]
