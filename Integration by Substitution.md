@@ -14,3 +14,4 @@ Why can we treat $u$ as a variable and a function at the same time? Smth to unde
 ### Ejemplos
 
 1 $$\int (8x-12)(4x^2-12x)^4dx$$
+$$u=4x^2-12x \text{ } \frac{du}{dx}=$$
