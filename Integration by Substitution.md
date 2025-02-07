@@ -6,6 +6,7 @@ Here, $u=g(x)=x^2$   $du=g'(x)=2xdx$. Now we can easily compute $$\int cos(u)du=
 
 Let's say we have a function $f(z)$, with $F(z)$ its antiderivative. By the chain rule we know that $F(g(x))=F'(g(x))\cdot g'(x)$ or by definition of $F$ $f(g(x))\cdot g'(x)$. So now we know that $$\int f(g(x))g'(x)dx=F(g(x))$$
 Another way to see this:
-$u=g(x)$, $\frac {du}{dx}=g'(x)$ $du=g'(x)dx$
 
-Why can we treat $u$ as a variable and a function at the same time?
+$$ u=g(x), \text{ }\frac {du}{dx}=g'(x), \text{ } du=g'(x)dx $$
+
+Why can we treat $u$ as a variable and a function at the same time? Smth to understan
