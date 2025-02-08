@@ -22,4 +22,9 @@ $$\int 90x^2sin(2+6x^3)dx$$
 $$u=2+6x^3 \hspace{1cm} \frac{du}{dx}=18x^2\hspace{1cm}5du=90x^2dx$$
 $$\int 90x^2sin(2+6x^3)dx=\int 5sin(u)du=-5cos(u)+C=-5cos(2+6x^3)+C$$
 3 A more difficult example
-$$\int \big(cos(3t)-t^2\big)\big(cos(3t)-t^2\big)$$
+$$\int \big(cos(3t)-t^2\big)\big(sin(3t)-t^3\big)^5dt$$
+Notice that this is the same as
+$$\int \big(cos(3t)-t^2\big)\big(sin(3t)-t^3\big)^2\big(sin(3t)-t^3\big)^3dt$$
+Now we can take $$u=(sin(3t)-t^3)$$
+$$\frac{du}{dx}=3(sin(3t-t^3)^2\cdot (sin(3t)-t^3)'$$
+$$du=3(sin(3t-t^3)^2\cdot 3(cos(3t)-3t^2)$$
