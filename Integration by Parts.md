@@ -1,3 +1,4 @@
+#integration #ayudantias 
 ### Formula:
 $$\int u(x)\cdot v'(x)dx=u(x)\cdot v(x) - \int u'(x) \cdot v(x)dx$$ In its definite form: 
 $$\int_a^b u(x)\cdot v'(x)dx=u(x)\cdot v(x)\Bigg\vert_a^b - \int_a^b u'(x) \cdot v(x)dx$$

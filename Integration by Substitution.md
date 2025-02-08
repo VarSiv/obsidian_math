@@ -1,3 +1,4 @@
+#integration #ayudantias
 We use $u=g(x)$, $du=g'(x)dx$ to compute $$\int f(g(x))\cdot g'(x)=\int f(u)du$$
 This is very abstract and hard to understand. It's difficult to identify when an expression we're trying to integrate follows the pattern on the left. Let's break it down with a simple example.
 $$\int cos(x^2)\cdot 2xdx$$
@@ -19,4 +20,6 @@ $$\int (8x-12)(4x^2-12x)^4dx=\int u^4du=\frac{u^5}{5}+C=\frac{(4x^2-12x)^5}{5}+C
 2
 $$\int 90x^2sin(2+6x^3)dx$$
 $$u=2+6x^3 \hspace{1cm} \frac{du}{dx}=18x^2\hspace{1cm}5du=90x^2dx$$
-$$\int 90x^2sin(2+6x^3)dx=\int 5sin(u)du=-5cos(u)+C=$$
+$$\int 90x^2sin(2+6x^3)dx=\int 5sin(u)du=-5cos(u)+C=-5cos(2+6x^3)+C$$
+3 A more difficult example
+$$\int \big(cos(3t)-t^2\big)\big(cos(3t)-t^2\big)$$

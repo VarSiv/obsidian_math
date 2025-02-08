@@ -1,3 +1,4 @@
+#integration 
 Antiderivatives are the inverses of derivatives. Let's have $f(x)$ and $F(x)$  the function of the area bounded by $f$ from $a$ to $b$. I will show that $F'(x)=f(x)$ . Let $c \in (a,b)$ . We know that $F(c)=k$ for some $k$ , and $F(c+dx) = F(c)+f(c)*dx$ (intuicion de los rectangulitos cuya base tiende a 0). Despejando, $F(c+dx)-F(c) = f(c)*dx$ , $\frac {dF} {dx} = f(c) \Box$. 
 
 ### Fundamental theorem of calculus 
