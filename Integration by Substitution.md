@@ -16,3 +16,7 @@ Why can we treat $u$ as a variable and a function at the same time? Smth to unde
 1 $$\int (8x-12)(4x^2-12x)^4dx$$
 $$u=4x^2-12x \hspace{1cm} \frac{du}{dx}=8x-12\hspace{1cm}du=(8x-12)dx$$
 $$\int (8x-12)(4x^2-12x)^4dx=\int u^4du=\frac{u^5}{5}+C=\frac{(4x^2-12x)^5}{5}+C$$
+2
+$$\int 90x^2sin(2+6x^3)dx$$
+$$u=2+6x^3 \hspace{1cm} \frac{du}{dx}=18x^2\hspace{1cm}5du=90x^2dx$$
+$$\int 90x^2sin(2+6x^3)dx=\int 5sin(u)du=-5cos(u)+C=$$
