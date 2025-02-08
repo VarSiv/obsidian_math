@@ -27,4 +27,6 @@ Notice that this is the same as
 $$\int \big(cos(3t)-t^2\big)\big(sin(3t)-t^3\big)^2\big(sin(3t)-t^3\big)^3dt$$
 Now we can take $$u=(sin(3t)-t^3)$$
 $$\frac{du}{dx}=3(sin(3t-t^3)^2\cdot (sin(3t)-t^3)'$$
-$$du=3(sin(3t-t^3)^2\cdot 3(cos(3t)-3t^2)$$
+$$du=3(sin(3t-t^3)^2\cdot 3(cos(3t)-t^2)dx$$
+$$\frac{1}{9}du=(sin(3t-t^3)^2\cdot (cos(3t)-t^2)dx$$
+Finally we do $$\int \frac{1}{9}u^3du=\frac{1}{36}u^4+C=(sin(3t)-t^3)^4+C$$
